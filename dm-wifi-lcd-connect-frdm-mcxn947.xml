@@ -1,0 +1,31 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="demo" format="projectfile" versionSchema="1.0.0" name="WiFi LCD connect FRDM MCXN947" uuid="0c4a8d92-bc5f-4bb6-b796-eb280e3847bf">
+    <display_title>
+        Wi-Fi connect using LCD interface on Azure Wave AW-AM510 FRDM MCXN947
+    </display_title>
+    <overview>
+        <![CDATA[This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi module AW-AM510.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="azurewave_iw416___azurewave_aw_am510_usd_module"></ebh>
+        <ebh id="nxp_lcd_par_s035"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="uart"></peripheral>
+        <peripheral name="sdio"></peripheral>
+        <peripheral name="display"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="graphics"></category>
+        <category name="rtos"></category>
+        <category name="wireless_connectivity"></category>
+    </categories>
+</data:item>

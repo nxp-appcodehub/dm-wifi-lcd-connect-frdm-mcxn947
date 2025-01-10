@@ -1,0 +1,13 @@
+Release Name: 		dm-wifi-lcd-connect-frdm-mcxn947
+Release Version: 	1.0
+Outgoing License: 	BSD-3-Clause
+License in File: 	Licence.txt
+Description: 		This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi module AW-AM510.
+Release location: 	https://github.com/nxp-appcodehub/dm-wifi-lcd-connect-frdm-mcxn947
+Origin: 		NXP (BSD-3-clause)
+				ARM CMSIS V5.8.0 (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.8.0
+				lvgl V8.3.10 (MIT) - https://github.com/lvgl/lvgl
+				FreeRTOS V10.4.3 (MIT) - https://github.com/FreeRTOS
+				lwIP 2024-02-19  (BSD-3-Clause) - http://savannah.nongnu.org/projects/lwip
+				Wi-Fi module Tx power limits v1.0.0 Murata Manufacturing Co., LTD (BSD-3-clause)
+				NXP Wi-Fi driver v1.3.r47.p16 (BSD-3-Clause)
