@@ -1,10 +1,11 @@
 # NXP Application Code Hub
 [<img src="https://mcuxpresso.nxp.com/static/icon/nxp-logo-color.svg" width="100"/>](https://www.nxp.com)
 
-## Wi-Fi connect using LCD interface on Azure Wave AW-AM510 FRDM MCXN947
-This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi module AW-AM510.
+## Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510
+This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 using Wi-Fi expansion board FRDM-IW416-AW-AM510.
 
 #### Boards: FRDM-MCXN947
+#### Expansion Boards: FRDM-IW416-AW-AM510
 #### Categories: Graphics, RTOS, Wireless Connectivity
 #### Peripherals: UART, SDIO, DISPLAY
 #### Toolchains: MCUXpresso IDE
@@ -52,18 +53,24 @@ This is a demo example of Wi-Fi connect using LCD interface on FRDM-MCXN947 usin
 
 
 ### 3.2 Prepare demo
-1.  Connect a USB type C cable between the PC host and the CMSIS DAP USB port on the board
+1.  Connect a USB type C cable between the PC host and the CMSIS DAP USB port on the FRDM-MCXN947 board
+
+![](images/FRDM-MCXN947.png)
+
 2.  Open a serial terminal with the following settings:
     - 115200 baud rate
     - 8 data bits
     - No parity
     - One stop bit
     - No flow control
-3.  Set jumpers of AW-AM510 module.
+3.  Set jumpers of Wi-Fi expansion board FRDM-IW416-AW-AM510.
+
+    - Remove J12, J3 (All 4)
+    - Add J7 2-3
 
 ![](images/Jumpers.png)
 
-4.  Connect the Wi-Fi module.
+4.  Connect the Wi-Fi expansion board FRDM-IW416-AW-AM510 to the FRDM-MCXN947.
 
 ![](images/FRDM-MCXN947-AM510.png)
 
